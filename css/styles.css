@@ -1,0 +1,163 @@
+* {
+  padding: 0.2em;
+}
+.logo {
+  width: 10%;
+  margin: 1.5em;
+  position: fixed;
+}
+
+p {
+  font-size: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.btn-floating {
+  margin: 15px;
+}
+
+.snav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+}
+
+.snav a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #424242;
+  display: block;
+  text-align: center;
+}
+
+.snav a:hover {
+  color: #e53935;
+}
+
+.sh {
+  width: 20em;
+  float: left;
+  position: relative;
+  left: 0;
+  margin: auto;
+  margin-top: 70%;
+}
+
+.box {
+  margin: 1em 0;
+  height: 35px;
+  width: 400px;
+  position: relative;
+  padding: 4em;
+}
+
+.bg {
+  position: absolute;
+  top: 3%;
+}
+
+.skill {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: #fafafa;
+}
+
+h3 {
+  color: #424242;
+  padding: 15px;
+}
+
+h4 {
+  color: #e53935;
+  padding: 15px;
+}
+
+img, video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.wrapper { 
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5em;
+}
+body {
+  background-color: #cccccc;
+  color: #333333;
+}
+.masonry-wrapper {
+  padding: 1.5em;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masonry {
+  columns: 1;
+  column-gap: 10px;
+}
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {  .masonry {
+    columns: 2;
+  }
+  /* Index */
+  .bg {
+    width: 25em;
+    position: fixed;
+    top: 17%;
+    right: 12em;
+  }
+  .sh {
+    width: 60%;
+  }
+  p {
+    font-size: 18px;
+    width: 20em;
+    float: left;
+    margin: 0;
+  }
+/* About */
+  .section {
+    width: 50%;
+    margin: 0 auto;
+    height: 85em;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 3;
+  }
+}
+.masonry-item, .masonry-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.masonry-item {
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, .3));
+  transition: filter .25s ease-in-out;
+}
+.masonry-item:hover {
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
+}
